@@ -142,7 +142,6 @@ from teste1;
 create table if not exists tempo(
 	id serial primary key,
 	mes varchar(20) null,
-	trimestre varchar(20) null,
 	ano integer null
 );
 
@@ -357,7 +356,6 @@ select distinct cidade, estado from secao;
 create table if not exists tempo1(
 	id serial primary key,
 	mes varchar(20) null,
-	trimestre varchar(20) null,
 	ano integer null
 );
 
